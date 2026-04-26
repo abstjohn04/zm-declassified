@@ -1,5 +1,5 @@
-const HOME_LINK = "/index.html";
-const CONTENTS_LINK = "/contents.html";
+const HOME_LINK = "/index";
+const CONTENTS_LINK = "/contents";
 const GITHUB_LINK = "https://github.com/abstjohn04/zm-declassified";
 const CONTACT_LINK = "https://thedrewshow.dev/contact";
 
