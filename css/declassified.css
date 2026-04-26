@@ -1,0 +1,166 @@
+:root {
+    --folder-bg: #fef1dc;
+    --paper-bg-1: rgba(251, 250, 245, 0.98);
+    --paper-bg-2: rgba(251, 250, 245, 0.85);
+    --ink: #0f1113;
+    --muted: #5b6066;
+    --border-color: #c9c9c7;
+
+    --line-height: 1.55;
+
+    --font: "IBM Plex Mono", monospace;
+}
+@font-face {
+    font-family: "IBM Plex Mono";
+    src: url("../assets/ibm-plex-mono/IBMPlexMono-Medium.ttf");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "IBM Plex Mono";
+    src: url("../assets/ibm-plex-mono/IBMPlexMono-Bold.ttf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "IBM Plex Mono";
+    src: url("../assets/ibm-plex-mono/IBMPlexMono-MediumItalic.ttf");
+    font-style: italic;
+}
+* {
+    margin: 0;
+    padding: 0;
+    line-height: var(--line-height);
+    color: var(--ink);
+    font-size: 16px;
+}
+body {
+    font-family: var(--font);
+    background: linear-gradient(var(--paper-bg-1), var(--paper-bg-2));
+    letter-spacing: -0.4px;
+}
+body::before {
+    background-image: url(../assets/paper-fibers.png);
+}
+.document-wrap {
+    max-width: 750px;
+    margin-inline: auto;
+}
+
+.title-container {
+    width: 250px;
+}
+
+hr {
+    margin-block: 0.8ch;
+}
+.title {
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.links {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.links a {
+    text-decoration: none;
+}
+
+.map-heading {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 3ch;
+    text-align: center;
+}
+.map-meta {
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    gap: 5ch;
+    justify-content: center;
+}
+.heading {
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: 3ch;
+}
+.step {
+    font-weight: bold;
+    margin-block-start: 2ch;
+}
+.sub-step {
+    margin-block-start: 1.5ch;
+    text-transform: uppercase;
+}
+.empty-btn {
+    border: none;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    display: inline;
+}
+
+p {
+    margin-block: 1ch;
+}
+.note::before {
+    content: "NOTE: ";
+    font-style: italic;
+}
+.note {
+    font-style: italic;
+    margin-block: 1ch;
+}
+ul {
+    list-style-position: inside;
+}
+
+.title-container a {
+    text-decoration: none;
+}
+.game-container {
+    margin-bottom: 1rem;
+}
+.game-title {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.game-title .released {
+    font-weight: 100;
+}
+.map::before {
+    content: "-";
+}
+.maps-list {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.footer {
+    margin-block: 1.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.collapsable {
+    border: none;
+    background-color: transparent;
+    font-family: var(--font);
+    cursor: pointer;
+}
+
+@media (max-width: 750px) {
+    .document-wrap { padding-inline: 10px; }
+    .footer-content { flex-direction: column; justify-content: center; align-items: center; }
+}
+
+/* IMAGE CAROUSEL */
+.img {
+    display: flex;
+    justify-content: center;
+}
+.img img {
+    max-width: 600px;
+    width: 75vw;
+}
