@@ -1,0 +1,340 @@
+[
+    
+    {
+        "title": "World at War",
+        "abv": "waw",
+        "logo": "~/img/waw/waw-64.png",
+        "maps": [
+            {
+                "name": "Nacht der Untoten",
+                "abv": "nacht",
+                "releaseDate": "2008-11-11",
+                "guide": "nacht_der_untoten.html",
+                "tags": [ ]
+            },
+            {
+                "name": "Verrückt",
+                "abv": "verruckt",
+                "releaseDate": "2009-03-19",
+                "guide": "verruckt.html",
+                "tags": [ ]
+            },
+            {
+                "name": "Shi no Numa",
+                "abv": "shino",
+                "releaseDate": "2009-06-11",
+                "guide": "shi_no_numa.html",
+                "tags": [ ]
+            },
+            {
+                "name": "Der Riese",
+                "abv": "derriese",
+                "releaseDate": "2009-08-06",
+                "guide": "Der Riese.html",
+                "tags": [ "solo", "mainegg" ]
+            }
+        ]
+    },
+    {
+        "title": "Black Ops",
+        "abv": "bo1",
+        "logo": "~/img/bo1/bo1-64.png",
+        "maps": [
+            {
+                "name": "Kino der Toten",
+                "abv": "kino",
+                "releaseDate": "2010-11-09",
+                "guide": "kino_der_toten.html",
+                "tags": [ ]
+            },
+            {
+                "name": "Five",
+                "abv": "five",
+                "releaseDate": "2010-11-09",
+                "guide": "five.html",
+                "tags": [ ]
+            },
+            {
+                "name": "Ascension",
+                "abv": "asension",
+                "releaseDate": "2011-02-01",
+                "guide": "ascension.html",
+                "tags": [ "four", "mainegg" ]
+            },
+            {
+                "name": "Call of the Dead",
+                "abv": "cotd",
+                "releaseDate": "2011-05-03",
+                "guide": "call_of_the_dead.html",
+                "tags": [ "solo", "mainegg" ]
+            },
+            {
+                "name": "Shangri-La",
+                "abv": "shang",
+                "releaseDate": "2011-06-28",
+                "guide": "shangri_la.html",
+                "tags": [ "four", "mainegg" ]
+            }
+            ,
+            {
+                "name": "Moon",
+                "abv": "moon",
+                "releaseDate": "2011-08-23",
+                "guide": "moon.html",
+                "tags": [ "two", "mainegg" ]
+            }
+        ]
+    },
+    {
+        "title": "Black Ops II",
+        "abv": "bo2",
+        "logo": "~/img/bo2/bo2-64.png",
+        "maps": [
+            {
+                "name": "Tranzit",
+                "abv": "tranzit",
+                "releaseDate": "2012-11-13",
+                "guide": "tranzit.html",
+                "tags": [ "two", "mainegg" ]
+            },
+            {
+                "name": "Die Rise",
+                "abv": "dierise",
+                "releaseDate": "2013-01-29",
+                "guide": "die_rise.html",
+                "tags": [ "four", "mainegg" ]
+            },
+            {
+                "name": "Nuketown",
+                "abv": "nuketown",
+                "releaseDate": "2013-04-12",
+                "guide": "nuketown.html",
+                "tags": [ "survival" ]
+            },
+            {
+                "name": "Mob of the Dead",
+                "abv": "motd",
+                "releaseDate": "2013-05-16",
+                "guide": "mob_of_the_dead.html",
+                "tags": [ "two", "mainegg" ]
+            },
+            {
+                "name": "Buried",
+                "abv": "buried",
+                "releaseDate": "2013-07-02",
+                "guide": "buried.html",
+                "tags": [ "four", "mainegg" ]
+            },
+            {
+                "name": "Origins",
+                "abv": "origins",
+                "releaseDate": "2013-08-27",
+                "guide": "origins.html",
+                "tags": [ "solo", "mainegg" ]
+            }
+        ]
+    },
+    {
+        "title": "Black Ops III",
+        "abv": "bo3",
+        "logo": "~/img/bo3/bo3-64.png",
+        "maps": [
+            {
+                "name": "Shadows of Evil",
+                "abv": "soe",
+                "releaseDate": "2015-11-06",
+                "guide": "shadows_of_evil.html",
+                "tags": [ "four", "mainegg" ]
+            },
+            {
+                "name": "The Giant",
+                "abv": "giant",
+                "releaseDate": "2015-11-06",
+                "guide": "the_giant.html",
+                "tags": [ "solo", "mainegg" ]
+            },
+            {
+                "name": "Der Eisendrache",
+                "abv": "de",
+                "releaseDate": "2016-02-02",
+                "guide": "der_eisendrache.html",
+                "tags": [ "solo", "mainegg" ]
+            },
+            {
+                "name": "Zetsubou no Shima",
+                "abv": "zns",
+                "releaseDate": "2016-04-19",
+                "guide": "zetsubou_no_shima.html",
+                "tags": [ "solo", "mainegg" ]
+            },
+            {
+                "name": "Gorod Krovi",
+                "abv": "gk",
+                "releaseDate": "2016-07-12",
+                "guide": "gorod_krovi.html",
+                "tags": [ "solo", "mainegg" ]
+            },
+            {
+                "name": "Revelations",
+                "abv": "rev",
+                "releaseDate": "2016-10-06",
+                "guide": "revelations.html",
+                "tags": [ "solo", "mainegg" ]
+            }
+        ]
+    },
+    {
+        "title": "Black Ops 4",
+        "abv": "bo4",
+        "logo": "~/img/bo4/bo4-64.png",
+        "maps": [
+            {
+                "name": "Voyage of Despair",
+                "abv": "voyage",
+                "releaseDate": "2018-10-12",
+                "guide": "voyage_of_despair.html",
+                "tags": [ "solo", "mainegg" ]
+            },
+            {
+                "name": "IX",
+                "abv": "ix",
+                "releaseDate": "2018-10-12",
+                "guide": "ix.html",
+                "tags": [ "solo", "mainegg" ]
+            },
+            {
+                "name": "Blood of the Dead",
+                "abv": "botd",
+                "releaseDate": "2018-10-12",
+                "guide": "blood_of_the_dead.html",
+                "tags": [ "solo", "mainegg" ]
+            },
+            {
+                "name": "Classified",
+                "abv": "classified",
+                "releaseDate": "2018-10-12",
+                "guide": "classified.html",
+                "tags": [ "solo", "mainegg" ]
+            },
+            {
+                "name": "Dead of the Night",
+                "abv": "dotn",
+                "releaseDate": "2018-12-11",
+                "guide": "dead_of_the_night.html",
+                "tags": [ "solo", "mainegg" ]
+            },
+            {
+                "name": "Ancient Evil",
+                "abv": "ae",
+                "releaseDate": "2019-03-26",
+                "guide": "ancient_evil.html",
+                "tags": [ "solo", "mainegg" ]
+            },
+            {
+                "name": "Alpha Omega",
+                "abv": "ao",
+                "releaseDate": "2019-07-09",
+                "guide": "alpha_omega.html",
+                "tags": [ "solo", "mainegg" ]
+            },
+            {
+                "name": "Tag der Toten",
+                "abv": "tag",
+                "releaseDate": "2018-09-23",
+                "guide": "tag_der_toten.html",
+                "tags": [ "solo", "mainegg" ]
+            }
+        ]
+    },
+    {
+        "title": "Black Ops Cold War",
+        "abv": "bocw",
+        "logo": "~/img/bocw/bocw-64.png",
+        "maps": [
+            {
+                "name": "Die Maschine",
+                "abv": "dm",
+                "releaseDate": "2020-11-13",
+                "guide": "die_maschine.html",
+                "tags": [ "solo", "mainegg" ]
+            },
+            {
+                "name": "Firebase Z",
+                "abv": "firebasez",
+                "releaseDate": "2021-02-04",
+                "guide": "firebase_z.html",
+                "tags": [ "solo", "mainegg" ]
+            },
+            {
+                "name": "Outbreak",
+                "abv": "outbreak",
+                "releaseDate": "2021-02-25",
+                "guide": "outbreak.html",
+                "tags": [ "solo", "mainegg" ]
+            },
+            {
+                "name": "Mauer der Toten",
+                "abv": "mauer",
+                "releaseDate": "2021-07-15",
+                "guide": "mauer_der_toten.html",
+                "tags": [ "solo", "mainegg" ]
+            },
+            {
+                "name": "Forsaken",
+                "abv": "forsaken",
+                "releaseDate": "2021-10-07",
+                "guide": "forsaken.html",
+                "tags": [ "solo", "mainegg" ]
+            }
+        ]
+    },
+    {
+        "title": "Black Ops 6",
+        "abv": "bo6",
+        "logo": "~/img/bo6/bo6-64.png",
+        "maps": [
+            {
+                "name": "Terminus",
+                "abv": "terminus",
+                "releaseDate": "2024-10-25",
+                "guide": "terminus.html",
+                "tags": [ "solo", "mainegg" ]
+            },
+            {
+                "name": "Libery Falls",
+                "abv": "lf",
+                "releaseDate": "2024-10-25",
+                "guide": "liberty_falls.html",
+                "tags": [ "solo", "mainegg" ]
+            },
+            {
+                "name": "Citadelle des Morts",
+                "abv": "citadelle",
+                "releaseDate": "2024-12-05",
+                "guide": "citadelle_des_morts.html",
+                "tags": [ "solo", "mainegg" ]
+            },
+            {
+                "name": "The Tomb",
+                "abv": "tomb",
+                "releaseDate": "2025-01-28",
+                "guide": "the_tomb.html",
+                "tags": [ "solo", "mainegg" ]
+            },
+            {
+                "name": "Shattered Veil",
+                "abv": "shattered",
+                "releaseDate": "2025-04-02",
+                "guide": "shattered_veil.html",
+                "tags": [ "solo", "mainegg" ]
+            },
+            {
+                "name": "Reckoning",
+                "abv": "reckoning",
+                "releaseDate": "2025-08-07",
+                "guide": "reckoning.html",
+                "tags": [ "solo", "mainegg" ]
+            }
+        ]
+    }
+]

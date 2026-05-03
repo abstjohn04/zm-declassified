@@ -29,16 +29,29 @@
     margin: 0;
     padding: 0;
     line-height: var(--line-height);
+    background: linear-gradient(var(--paper-bg-1), var(--paper-bg-2));
     color: var(--ink);
     font-size: 16px;
 }
 body {
     font-family: var(--font);
-    background: linear-gradient(var(--paper-bg-1), var(--paper-bg-2));
     letter-spacing: -0.4px;
 }
-body::before {
-    background-image: url(../assets/paper-fibers.png);
+body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    z-index: 9999;
+    height: 100%;
+    width: 100%;
+    background-image: url(/assets/paper-fibers.png);
+    background-repeat: repeat;
+    opacity: 20%;
+    pointer-events: none;
 }
 .document-wrap {
     max-width: 750px;
@@ -114,6 +127,11 @@ p {
 }
 ul {
     list-style-position: inside;
+    margin-bottom: 2ch;
+}
+ol {
+    list-style-position: inside;
+    margin-bottom: 2ch;
 }
 
 .title-container a {
